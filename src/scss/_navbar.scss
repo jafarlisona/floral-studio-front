@@ -1,0 +1,32 @@
+nav{
+    background-color: #10634ee7;
+    height: 70px;
+    .navbar{
+        max-width: 1800px;
+        height: 70px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            color: white;
+            font-size: 22px;
+            font-weight: 700;
+        }
+        .pages{
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            a{
+                color:#d8e3d5;
+                font-weight: 500;
+                &:hover{
+                    color: #faba84;
+                }
+            }
+            // .active{
+            //     color: #faba84;
+            // }
+        }
+    }
+}
